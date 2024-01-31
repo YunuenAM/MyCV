@@ -262,17 +262,19 @@ ul{
     
   }
 
-  .cards-education{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-    width: 300px;
-    background-color: whitesmoke;
-    border: 1px solid gray;
-    border-radius: 16px;
 
+  .work-section{
+     margin-top: 30px;
+     padding: 10px;
+     background-color: #BDA2C3;
+     margin: 50px;
+     border-radius: 16px;
   }
+
+  .card-work:hover {
+    transform: translate(5px, -5px); /* Puedes ajustar estos valores según tu preferencia */
+    transition: transform 0.3s ease; /* Controla la duración y la curva de la animación */
+}
 
 
 
