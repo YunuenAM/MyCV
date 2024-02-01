@@ -32,14 +32,14 @@ div{
 }
 
 nav {
-    background-color: ccc;
+    float: right;
     overflow: hidden;
     text-align: right;
 }
 
 nav a {
-    float: right;
-    display: block;
+  display: inline-block;
+    
     margin-top: 15px;
     color: white;
     text-align: right;
@@ -189,21 +189,16 @@ body.light-theme {
    
 }
 
-.avatar{
-    width: 100px;
-    height: auto;
-    border-radius: 20px;
-}
 
 .avatar-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+
 }
 
 .avatar {
-    width: 100px;
+    width: 7rem;
     height: auto;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out; /* Agregamos una transición para suavizar la animación */
@@ -211,7 +206,7 @@ body.light-theme {
 
 /* Añadimos la regla hover para aplicar la transformación cuando el usuario pasa el ratón sobre la imagen */
 .avatar:hover {
-    transform: scale(1.2); /* Escalamos la imagen al 120% de su tamaño original */
+    transform: scale(1.5); /* Escalamos la imagen al 120% de su tamaño original */
 }
 .lead{
     font-size: smaller;
@@ -241,6 +236,10 @@ body.light-theme {
     animation: shine 2s infinite;
 }
 
+
+.card-body{
+    margin-bottom: 20px;
+}
 
 ul{
     list-style-type: none;
@@ -286,7 +285,7 @@ ul{
     list-style: none;
     display: flex;
     gap: 10px; /* Espacio entre elementos */
-    margin: 0;
+    margin: 2px;
     margin-bottom: 10px;
     padding: 0;
   }
@@ -294,13 +293,20 @@ ul{
   .technologies-list {
     background-color: purple; /* Color de fondo del globo */
     border-radius: 4px; /* Bordes redondeados del globo */
-    padding: 3px; /* Espaciado interno del globo */
+    padding: 2px; /* Espaciado interno del globo */
     font-size: 9px;
+    margin: 2px;
   }
 
   .technologies-item {
     margin: 0; /* Elimina el margen predeterminado del h4 */
   }
+
+.card-text-description {
+    color: #333333;
+    font-size: 10px;
+}
+
 
 
 
