@@ -2,15 +2,7 @@
     scroll-behavior: smooth;
 }
 
-body{
-    background-color: #BDA2C3;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-   min-width: 375px;
-    
-   
-}
+
 
 div{
     display: block;
@@ -35,17 +27,17 @@ nav {
     float: right;
     overflow: hidden;
     text-align: right;
+    
 }
 
 nav a {
-  display: inline-block;
-    
+    display: inline-block;
     margin-top: 5px;
     color: white;
     text-align: right;
-    padding: 2px 5px 2px 5px;
+    padding: 6px;
     text-decoration: none;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'system-ui';
     font-size: xx-small;
 }
 
@@ -55,21 +47,21 @@ nav a:hover {
 }
 
 h1{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'system-ui';
 }
 
 .intro-text,
     .description {
-        display: inline-block; /* Esto permite que los elementos se alineen horizontalmente */
+        display: inline-block; 
         vertical-align: middle}
 
       
 
 h2{
-    width: 80%;
-    font-family: 'PT Sans', sans-serif;
+    width: 100%;
+    font-family: 'system-ui';
     font-style: normal;
-    font-size: 2rem;
+    font-size: xx-small;
     line-height: 52px;
     display: flex;
     justify-content: center;
@@ -80,12 +72,12 @@ h2{
     animation: fadeIn 0.5s forwards;
    
 }
-
-
- /* Agregamos la clase 'pop' al h3 para aplicar la animación */
+/* Agregamos la clase 'pop' al h3 para aplicar la animación */
  .pop {
-    display: inline-block;
-    font-size: 1.5rem; /* Ajusta el tamaño del texto según tus necesidades */
+   display: flex;
+   justify-content: right;
+    font-family: 'system-ui';
+    font-size: small; /* Ajusta el tamaño del texto según tus necesidades */
     transition: transform 0.3s ease-in-out; /* Añadimos una transición suave */
 }
 
@@ -93,10 +85,6 @@ h2{
 .pop:hover {
     transform: scale(1.2); /* Escalamos el h3 al 120% de su tamaño original */
 }
-
-
-
-
 
 .menu-icon {
     display: none;
@@ -118,21 +106,6 @@ h2{
     }
 }
 
-
-
-
-body.light-theme {
-    background-color: #BDA2C3;
-    color: #000000;
-  }
-
-  body.dark-theme {
-    background-color: #333333;
-    color: #ffffff;
-  }
-
-
-
   .container {
     display: flex;
     align-items: right;
@@ -140,77 +113,26 @@ body.light-theme {
 
   }
   
-  .toggle-button {
-    margin-top: 20px;
-    position: relative;
-    background-color: #fff; /* Puedes cambiar el color de fondo según tus preferencias */
-    border: none;
-    width: 60px; /* Ancho del toggle */
-    height: 30px; /* Altura del toggle */
-    border-radius: 15px; /* Hace que el toggle sea ovalado */
-    cursor: pointer;
-    overflow: hidden;
-  }
-  
-  .moon-shape {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200%; /* Ancho del contenedor extendido para permitir el deslizamiento */
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .toggle-circle {
-    position: absolute;
-    top: 10%;
-    left: 5px; /* Espacio entre el círculo y el borde izquierdo del toggle */
-    width: 20px; /* Diámetro del círculo */
-    height: 20px;
-    border-radius: 50%;
-    background-color: gray; /* Puedes cambiar el color del círculo según tus preferencias */
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  
-  .toggle-button.active .toggle-circle,
-  .toggle-circle.active {
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
-  }
-
-
-
-#avatar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
-   
-}
-
-
-.avatar-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
 
 .avatar {
-    width: 8.7rem;
+    width: 4rem;
     height: auto;
     border-radius: 20px;
-    transition: transform 0.3s ease-in-out; /* Agregamos una transición para suavizar la animación */
+    transition: transform 0.3s ease-in-out; 
+    margin-top: 2rem;
 }
 
 /* Añadimos la regla hover para aplicar la transformación cuando el usuario pasa el ratón sobre la imagen */
 .avatar:hover {
-    transform: scale(.5); /* Escalamos la imagen al 120% de su tamaño original */
+    transform: scale(1.5); /* Escalamos la imagen al 120% de su tamaño original */
 }
-.lead{
-    font-size: 1rem;
 
+
+.intro{
+    font-family: 'system-ui';
+  font-size: xx-small;
+  font-weight: lighter;
+  margin-left: 2rem;
 }
 
 /* Definimos la animación 'shine' */
@@ -233,15 +155,18 @@ body.light-theme {
 
 
 .card-title{
-    font-size: x-small;
+    font-size: x-large;
     font-weight: normal;
-    margin-top: 4rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
     
 }
 .card-subtitle{
     font-family: 'BebasNeue';
     text-decoration: none;
     animation: shine 2s infinite;
+    margin-left: 2rem;
 }
 
 
@@ -252,7 +177,7 @@ body.light-theme {
 ul{
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin-left: 2rem;
    
 }
 
@@ -272,8 +197,8 @@ ul{
 
   .work-section{
      margin-top: 30px;
-     padding: 10px;
-     margin: 50px;
+     padding: 0px;
+     margin: 20px;
      border-radius: 16px;
   }
 
@@ -286,9 +211,9 @@ ul{
 .technologies-ul {
     list-style: none;
     display: flex;
-    gap: 10px; /* Espacio entre elementos */
-    margin: 2px;
-    margin-bottom: 10px;
+    gap: 5px; /* Espacio entre elementos */
+    margin: 0px;
+    margin-bottom: 2px;
     padding: 0;
   }
 
@@ -296,20 +221,32 @@ ul{
     background-color: purple; /* Color de fondo del globo */
     border-radius: 4px; /* Bordes redondeados del globo */
     padding: 2px; /* Espaciado interno del globo */
-    font-size: 9px;
+    font-size: 7px;
     margin: 2px;
   }
 
   .technologies-item {
-    margin: 0; /* Elimina el margen predeterminado del h4 */
+    margin: 0; 
   }
 
 .card-text-description {
-    color: #333333;
-    font-size: .5rem;
-    margin-top: 1rem;
+    color: white;
+    font-size: .9rem;
+    margin-bottom: 2px;
     font-weight: normal;
 }
+
+.card-text{
+    color: white;
+    font-size: .7rem;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-weight:  lighter;
+
+}
+
+
+
 
 
 
