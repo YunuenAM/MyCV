@@ -137,10 +137,10 @@ h2{
 
 
 .intro{
-    font-family: 'system-ui';
+font-family: 'system-ui';
   font-size: xx-small;
   font-weight: lighter;
-  margin-left: 2rem;
+  margin-left: 0px;
 }
 
 /* Definimos la animación 'shine' */
@@ -178,7 +178,7 @@ h2{
     font-family: 'BebasNeue';
     text-decoration: none;
     animation: shine 2s infinite;
-    margin-left: 2rem;
+    margin-left: 0;
 }
 
 
@@ -187,7 +187,7 @@ h2{
 ul{
     list-style-type: none;
     padding: 0;
-    margin-left: 2rem;
+    margin-left: 0;
    
 }
 
@@ -206,54 +206,26 @@ ul{
   }
 
 
+  /*Work section cards*/
+
   .work-section{
-     margin-top: 2rem;
-     margin-left: 7rem;
-     margin-right: 7rem;
-     padding: 0px;
-     border-radius: 14px;
-  }
-
-
-
-.technologies-ul {
-    list-style: none;
     display: flex;
-    gap: 5px; /* Espacio entre elementos */
-    margin: 0px;
-    margin-bottom: 2px;
-    padding: 0;
+    justify-content: center;
+    align-items: 0 auto;
+    margin: 2rem;
+
   }
 
-  .technologies-list {
-    background-color: purple; 
-    border-radius: 4px; 
-    font-size: 6px;
-   
+  .work{
+    font-family: 'system-ui';
+  font-size: xx-small;
+  font-weight: lighter;
+  margin-left: 2rem;
   }
 
-
-
-.technologies-list > :not(:first-child) {
-    margin-left: 0.5rem; 
-}
-  
-
-.card-text-description {
-    color: black;
-    font-size: .5rem;
-    font-weight: normal;
-    margin-left: 8rem;
-}
-
-.card-text{
-    color: white;
-    font-size: 8px;
-    margin-left: 8rem;
-    font-weight:  lighter;
-
-}
-
+  .img-fluid rounded-start{
+    margin-left: 127px;
+  }
 
 
 
