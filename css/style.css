@@ -242,6 +242,7 @@ ul{
     width: calc(3=15% - 5px); /* Ancho del 50% menos el espacio entre elementos */
     border: 1px solid #E83283;
     background-color: #E83283;
+    color: lavender;
     border-radius: 4px;
     margin-left: 10px; /* Espacio entre elementos */
     margin-bottom: 10px; /* Espacio entre filas */
@@ -273,31 +274,7 @@ ul{
   }
 
   
-
-
-   
-  
-
-
-
-
-  .button-container {
-    margin-left: 2rem;
-    margin-top: -20px;
-
-  }
-  
-  .btn-outline-pink {
-    color: pink;
-    border-color: pink;
-  }
-  
-  .btn-outline-pink:hover {
-    color: white;
-    background-color: pink;
-    border-color: pink;
-  }
-  
+ 
   
   
 
