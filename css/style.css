@@ -78,6 +78,8 @@ h2{
     animation: fadeIn 0.5s forwards;
    
 }
+
+
 /* Agregamos la clase 'pop' al h3 para aplicar la animación */
  .pop {
    display: flex;
@@ -206,6 +208,8 @@ ul{
   }
 
 
+
+
   /*Work section cards*/
 
   .work-section{
@@ -274,15 +278,36 @@ ul{
   }
 
   
- 
-  
-  
+  /*About section carrousel*/
 
 
+  .carousel-caption {
+    top: 0%;
+    font-family: 'system-ui';
+    font-size: 1rem;
+}
 
 
+.caption{
+    font-size: .5rem;
+}
 
-
+h6{
+    display: flex;
+    font-size: medium;
+    font-family: 'BebasNeue';
+    font-weight: lighter;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 8rem;
+    letter-spacing: 1px;
+    line-height: 52px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 0 auto;
+   }
 
 
 
