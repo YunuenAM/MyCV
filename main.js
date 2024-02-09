@@ -5,4 +5,8 @@ const scrollToWorkSection = ()=> {
   const scrollToHome = ()=> {
     document.getElementById('background-section').scrollIntoView({ behavior: 'smooth' });
   }
+
+  const scrollToAbout = ()=> {
+    document.getElementById('about-section').scrollIntoView({ behavior: 'smooth' });
+  }
   
