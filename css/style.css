@@ -406,6 +406,7 @@ h6{
     justify-content: space-around;
    margin-left: 2rem;
    transition: transform 0,3 ease;
+   animation: shine2 2s infinite ;
 
   }
 
