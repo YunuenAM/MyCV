@@ -14,5 +14,4 @@ const scrollToWorkSection = ()=> {
     document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth' });
   }
 
- 
-  
+
