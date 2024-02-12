@@ -20,12 +20,7 @@ div{
 
 
 
-nav {
-    float: right;
-    overflow: hidden;
-    text-align: right;
-    
-}
+
 
 nav a {
     display: inline-block;
