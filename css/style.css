@@ -43,16 +43,14 @@ nav a:hover {
     color: black;
 }
 
- /* Estilos para ocultar el menú en dispositivos más pequeños */
- .menu-items {
-    display: none;
-  }
-  /* Estilos para mostrar el menú en dispositivos más grandes */
-  @media (min-width: 576px) {
-    .menu-items {
-      display: block;
-    }
+.menu-items {
+    display: none; /* Oculta el menú por defecto */
 }
+
+.menu-items.show {
+    display: block; /* Muestra el menú cuando tiene la clase "show" */
+}
+
 
 #logo:hover {
     text-decoration: none;
