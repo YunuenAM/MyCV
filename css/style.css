@@ -388,7 +388,7 @@ h6{
     font-family: 'system-ui';
     color: #333;
     font-size: 0.625rem;
-    margin: 10px;
+    text-align: center;
     animation: paragraphAnimation 1s ease forwards;
   }
 
@@ -406,12 +406,22 @@ h6{
   .links-group-connect{
     display: flex;
     justify-content: space-around;
-   margin-left: 2rem;
+   margin-left: 1rem;
    transition: transform 0,3 ease;
    animation: shine2 2s infinite ;
 
   }
 
+  .contact-info {
+    display: flex;
+    justify-content: space-around; /* Esto distribuirá equitativamente las tarjetas horizontalmente */
+    max-width: 600px; /* Opcional: establece el ancho máximo para evitar que se extiendan demasiado en pantallas grandes */
+    margin: 0 auto; /* Centra horizontalmente el contenedor de las tarjetas */
+}
+
+.contact-info-item {
+    text-align: center; /* Alinea el contenido al centro dentro de cada tarjeta */
+}
 
 
   /* Animaciones */
