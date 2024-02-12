@@ -43,9 +43,6 @@ nav a:hover {
     color: black;
 }
 
-.menu-items {
-    display: none; /* Oculta el menú por defecto */
-}
 
 .menu-items.show {
     display: block; /* Muestra el menú cuando tiene la clase "show" */
