@@ -13,14 +13,27 @@
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-primary ">
-            <a class="menu-icon"><img class="hamburger" src="./img/menu.png" alt="icon-hamburger"></a>
-            <a href="#background-section" onclick="scrollToHome()">Home</a>
-            <a href="#work-section" onclick="scrollToWorkSection()">Portfolio</a>
-            <a href="#about-section" onclick="scrollToAboutSection()">About</a>
-            <a href="#contact-section" onclick="scrollContactSection()">Contact</a>
-            <img src="./img/logoYA.png" style=" position: absolute; top: 0px; right:10px;width: 50px; height: auto; justify-content: right; text-decoration: none;" alt="">
-         </nav>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-primary ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#background-section" onclick="scrollToHome()">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work-section" onclick="scrollToWorkSection()">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-section" onclick="scrollToAboutSection()">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-section" onclick="scrollContactSection()">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
 
     <section id="background-section" class="background-section mt-5">
