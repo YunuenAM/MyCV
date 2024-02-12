@@ -44,9 +44,6 @@ nav a:hover {
 }
 
 
-.menu-items.show {
-    display: block; /* Muestra el menú cuando tiene la clase "show" */
-}
 
 
 #logo:hover {
@@ -114,6 +111,15 @@ h2{
     .responsive-nav a {
         display: block;
         text-align: left;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu-items {
+      display: none;
+    }
+    .menu-icon {
+      display: block;
     }
 }
 
