@@ -14,6 +14,10 @@ const scrollToWorkSection = ()=> {
     document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth' });
   }
 
+  const toggleMenu =()=> {
+    let menuItems = document.querySelector('.menu-items');
+    menuItems.classList.toggle('show')
+  }
 
 
 

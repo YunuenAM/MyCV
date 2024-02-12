@@ -43,6 +43,17 @@ nav a:hover {
     color: black;
 }
 
+ /* Estilos para ocultar el menú en dispositivos más pequeños */
+ .menu-items {
+    display: none;
+  }
+  /* Estilos para mostrar el menú en dispositivos más grandes */
+  @media (min-width: 576px) {
+    .menu-items {
+      display: block;
+    }
+}
+
 #logo:hover {
     text-decoration: none;
 }
